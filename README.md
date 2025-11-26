@@ -47,7 +47,7 @@ dataset/
   test/
     glasses/
     no_glasses/
-
+```
 
 
 # 📚 Project Steps
@@ -122,3 +122,4 @@ Imported everything needed for:
 1. Clone the repository:  
 ```bash
 git clone https://github.com/JubayerRislam/WithGlasses_OR_NoGlasses.git
+```
