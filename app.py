@@ -53,8 +53,8 @@ if uploaded_file:
 
     # Prediction
     pred = model.predict(img_array)
-    # Assuming model outputs 0 = no glasses, 1 = glasses
+    # Assuming model outputs 0 = glasses, 1 = no glasses
     if pred[0][0] >= 0.5:
-        st.success("🕶️ Person is wearing glasses!")
+        st.success("❌ Person is NOT wearing glasses.")
     else:
-        st.info("❌ Person is NOT wearing glasses.")
+        st.info("🕶️ Person is wearing glasses!")
