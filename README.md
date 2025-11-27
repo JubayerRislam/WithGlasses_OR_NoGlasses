@@ -37,6 +37,8 @@ The goal of this project is to **automatically detect whether a person is wearin
 
 ## 📥 Dataset
 
+link- https://www.kaggle.com/datasets/sehriyarmemmedli/glasses-vs-noglasses-dataset
+
 - Dataset downloaded from Kaggle using **KaggleHub**.  
 - Folder structure:  
 ```text
